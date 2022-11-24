@@ -45,7 +45,7 @@
 \newif\if@twocolumn
 \DeclareOptionX{onecolumn}{\@onecolumntrue\@twocolumnfalse}
 \DeclareOptionX{twocolumn}{\@onecolumnfalse\@twocolumntrue}
-\ExecuteOptionsX{twocolumn}
+\ExecuteOptionsX{onecolumn}
 
 %% Pass unknown options to the parent class (article)
 \DeclareOptionX*{\PassOptionsToClass{\CurrentOption}{article}}
